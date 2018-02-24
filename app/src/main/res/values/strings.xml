@@ -3,4 +3,7 @@
     <string name="transition_by_constraintset">Transition By ConstraintSet</string>
     <string name="recycler_view">Recycler View</string>
     <string name="view_pager">View Pager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

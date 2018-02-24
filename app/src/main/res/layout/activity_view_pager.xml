@@ -20,6 +20,30 @@
         android:layout_width="match_parent"
         android:layout_height="50dp">
 
+        <Button
+            android:id="@+id/btn_vp_1"
+            android:text="1"
+            android:background="#ffffff"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/btn_vp_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_vp_2"
+            android:text="2"
+            android:background="#ffffff"
+            app:layout_constraintLeft_toRightOf="@id/btn_vp_1"
+            app:layout_constraintRight_toLeftOf="@id/btn_vp_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_vp_3"
+            android:text="3"
+            android:background="#ffffff"
+            app:layout_constraintLeft_toRightOf="@id/btn_vp_2"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     </android.support.constraint.ConstraintLayout>
 
