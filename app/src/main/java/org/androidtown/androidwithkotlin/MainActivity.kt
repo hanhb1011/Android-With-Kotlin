@@ -13,7 +13,15 @@ class MainActivity : AppCompatActivity() {
         tv.text = "Kotlin Project Practices"
 
         firstButton.setOnClickListener {
-            startActivity(Intent(this, FirstActivity::class.java))
+            startActivity(Intent(this, TransitionActivity::class.java))
+        }
+
+        secondButton.setOnClickListener {
+            startActivity(Intent(this, RecyclerViewActivity::class.java))
+        }
+
+        thirdButton.setOnClickListener {
+            startActivity(Intent(this, ViewPagerActivity::class.java))
         }
 
     }

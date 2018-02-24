@@ -7,13 +7,13 @@ import android.transition.TransitionManager
 import kotlinx.android.synthetic.main.activity_first.*
 
 /*
-    FirstActivity
+    TransitionActivity
     ConstraintSet으로 Transition
 
  */
 
 
-class FirstActivity : AppCompatActivity() {
+class TransitionActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

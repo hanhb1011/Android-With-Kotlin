@@ -27,7 +27,8 @@
         android:id="@+id/firstButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Transition By ConstraintSet"
+        android:text="@string/transition_by_constraintset"
+        android:padding="5dp"
         android:background="#ffffff"
         android:layout_marginTop="30dp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -39,12 +40,26 @@
         android:id="@+id/secondButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Recycler View"
+        android:text="@string/recycler_view"
+        android:padding="5dp"
         android:background="#ffffff"
         android:layout_marginTop="15dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstButton"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_pager"
+        android:padding="5dp"
+        android:background="#ffffff"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondButton"
         android:textAllCaps="false"/>
 
 </android.support.constraint.ConstraintLayout>
