@@ -9,16 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TransitionActivity" />
-        <activity android:name=".RecyclerViewActivity" />
-        <activity android:name=".ViewPagerActivity"></activity>
+        <activity android:name=".Feature1.TransitionActivity" />
+        <activity android:name=".Feature2.RecyclerViewActivity" />
+        <activity android:name=".Feature3.ViewPagerActivity" />
+        <activity
+            android:name=".Feature4.CollapsingToolbarActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
     </application>
 
 </manifest>

@@ -1,15 +1,18 @@
-package org.androidtown.androidwithkotlin
+package org.androidtown.androidwithkotlin.Feature1
 
 import android.os.Bundle
 import android.support.constraint.ConstraintSet
 import android.support.v7.app.AppCompatActivity
 import android.transition.TransitionManager
 import kotlinx.android.synthetic.main.activity_first.*
+import org.androidtown.androidwithkotlin.R
 
 /*
-    TransitionActivity
-    ConstraintSet으로 Transition
-
+    Feature 1
+    ConstraintSet으로 Transition을 구현
+    3가지 단계로 구성 (배경 -> subdetail -> detail)
+    1. Constraint에 세 가지 단계에 해당되는 레이아웃을 clone
+    2. 클릭 리스너에서 Transition 수행
  */
 
 

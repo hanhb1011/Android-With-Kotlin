@@ -1,4 +1,3 @@
 fun main(args:Array<String>){
-
-    (1..readLine()!!.toInt()).forEach {  }
+    Array(readLine()!!.toInt(), {readLine()!!}).forEach {println(Integer.parseInt(it,2))}
 }

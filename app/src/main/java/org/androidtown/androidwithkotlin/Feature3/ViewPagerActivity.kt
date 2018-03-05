@@ -1,9 +1,15 @@
-package org.androidtown.androidwithkotlin
+package org.androidtown.androidwithkotlin.Feature3
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_view_pager.*
+import org.androidtown.androidwithkotlin.R
+/*
 
+    Feature 3
+    view pager 구현
+
+ */
 class ViewPagerActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

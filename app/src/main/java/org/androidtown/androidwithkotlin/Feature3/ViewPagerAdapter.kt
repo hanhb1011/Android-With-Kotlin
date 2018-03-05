@@ -1,4 +1,4 @@
-package org.androidtown.androidwithkotlin
+package org.androidtown.androidwithkotlin.Feature3
 
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
@@ -9,7 +9,11 @@ import android.support.v4.app.FragmentStatePagerAdapter
  */
 class ViewPagerAdapter(fragmentManager: FragmentManager) : FragmentStatePagerAdapter(fragmentManager) {
 
-    val myFragments: Array<MyFragment> = Array(3, { MyFragment(it) })
+    private val myFragments: Array<MyFragment> = Array(3, {
+        val fragment = MyFragment()
+        fragment.number = it
+        return@Array fragment
+    })
 
     override fun getItem(position: Int): Fragment {
         return myFragments[position]

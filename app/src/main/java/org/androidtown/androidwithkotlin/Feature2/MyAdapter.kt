@@ -1,4 +1,4 @@
-package org.androidtown.androidwithkotlin
+package org.androidtown.androidwithkotlin.Feature2
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import kotlinx.android.synthetic.main.cell.view.*
+import org.androidtown.androidwithkotlin.R
 
 /**
  * Created by hanhb on 2018-02-22.
