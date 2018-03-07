@@ -22,6 +22,7 @@
         <activity
             android:name=".Feature4.CollapsingToolbarActivity"
             android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".Feature5.ServerActivity"></activity>
     </application>
 
 </manifest>

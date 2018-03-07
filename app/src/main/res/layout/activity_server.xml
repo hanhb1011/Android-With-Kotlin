@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.androidtown.androidwithkotlin.Feature5.ServerActivity">
+
+    <TextView
+        tools:text="content\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\n"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/tv_in_firebase"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <EditText
+        android:id="@+id/num_in_firebase"
+        android:hint="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_in_firebase"
+        app:layout_constraintRight_toLeftOf="@id/str_in_firebase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/str_in_firebase"
+        android:hint="string"
+        app:layout_constraintLeft_toRightOf="@id/num_in_firebase"
+        app:layout_constraintRight_toLeftOf="@id/send_button"
+        app:layout_constraintTop_toBottomOf="@id/tv_in_firebase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/send_button"
+        app:layout_constraintTop_toBottomOf="@id/tv_in_firebase"
+        app:layout_constraintLeft_toRightOf="@id/str_in_firebase"
+        app:layout_constraintRight_toLeftOf="@id/receive_button"
+        android:text="send"
+        android:background="#ffffff"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/receive_button"
+        app:layout_constraintTop_toBottomOf="@id/tv_in_firebase"
+        app:layout_constraintLeft_toRightOf="@id/send_button"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#ffffff"
+        android:text="receive"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</android.support.constraint.ConstraintLayout>
